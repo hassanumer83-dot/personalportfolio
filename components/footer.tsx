@@ -1,14 +1,10 @@
 export function Footer() {
   return (
     <footer className="py-8 px-6 lg:px-20 border-t border-border">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+      <div className="max-w-6xl mx-auto text-center">
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} Umer Hassan. All rights reserved.
         </p>
-        <div className="flex items-center gap-6 text-sm text-muted-foreground">
-          <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
-          <a href="#" className="hover:text-foreground transition-colors">Terms</a>
-        </div>
       </div>
     </footer>
   )
