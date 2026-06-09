@@ -17,20 +17,26 @@ export function Contact() {
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 mb-16">
-          <Button size="lg" className="gap-2">
-            <Calendar className="w-5 h-5" />
-            Book a Strategy Call
-            <ArrowUpRight className="w-4 h-4" />
+          <Button size="lg" className="gap-2" asChild>
+            <a href="https://calendly.com/hassanumer83/15min" target="_blank" rel="noopener noreferrer">
+              <Calendar className="w-5 h-5" />
+              Book a Strategy Call
+              <ArrowUpRight className="w-4 h-4" />
+            </a>
           </Button>
-          <Button size="lg" variant="outline" className="gap-2">
-            <Mail className="w-5 h-5" />
-            hello@example.com
+          <Button size="lg" variant="outline" className="gap-2" asChild>
+            <a href="mailto:hassanumer83@gmail.com">
+              <Mail className="w-5 h-5" />
+              hassanumer83@gmail.com
+            </a>
           </Button>
         </div>
         
         <div className="flex justify-center gap-6">
           <a 
-            href="#" 
+            href="https://www.linkedin.com/in/umer-hassan-9a129b209/" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
           >
             <Linkedin className="w-5 h-5" />

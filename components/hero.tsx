@@ -10,7 +10,7 @@ export function Hero() {
         <p className="text-primary font-medium mb-4 tracking-wide">META ADS SPECIALIST</p>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8 text-balance" style={{ fontFamily: 'var(--font-display)' }}>
-          Scaling brands through{" "}
+          Scaling businesses through{" "}
           <span className="text-primary">data-driven</span>{" "}
           paid social campaigns
         </h1>
@@ -23,19 +23,25 @@ export function Hero() {
         </p>
         
         <div className="flex flex-wrap gap-4 mb-16">
-          <Button size="lg" className="gap-2">
-            <Calendar className="w-4 h-4" />
-            Book a Call
+          <Button size="lg" className="gap-2" asChild>
+            <a href="https://calendly.com/hassanumer83/15min" target="_blank" rel="noopener noreferrer">
+              <Calendar className="w-4 h-4" />
+              Book a Call
+            </a>
           </Button>
-          <Button size="lg" variant="outline" className="gap-2">
-            <Mail className="w-4 h-4" />
-            Get in Touch
+          <Button size="lg" variant="outline" className="gap-2" asChild>
+            <a href="mailto:hassanumer83@gmail.com">
+              <Mail className="w-4 h-4" />
+              Get in Touch
+            </a>
           </Button>
         </div>
         
         <div className="flex items-center gap-6 text-muted-foreground">
           <a 
-            href="#" 
+            href="https://www.linkedin.com/in/umer-hassan-9a129b209/" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex items-center gap-2 hover:text-primary transition-colors"
             aria-label="LinkedIn"
           >
@@ -43,12 +49,12 @@ export function Hero() {
             <span className="text-sm">LinkedIn</span>
           </a>
           <a 
-            href="mailto:hello@example.com" 
+            href="mailto:hassanumer83@gmail.com" 
             className="flex items-center gap-2 hover:text-primary transition-colors"
             aria-label="Email"
           >
             <Mail className="w-5 h-5" />
-            <span className="text-sm">hello@example.com</span>
+            <span className="text-sm">hassanumer83@gmail.com</span>
           </a>
         </div>
       </div>

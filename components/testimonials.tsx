@@ -30,16 +30,22 @@ const testimonials = [
 
 const youtubeTestimonials = [
   {
+    id: 0,
+    embedId: "_8pZOZiHUe0",
+    clientName: "Abdul Wahab",
+    title: "Fatloss Coach"
+  },
+  {
     id: 1,
     embedId: "ejlc5nScbx0",
     clientName: "Saeeda Maryam",
-    title: "Client Testimonial"
+    title: "PCOS/PMOS & Weight Loss Coach"
   },
   {
     id: 2,
     embedId: "SavG58y9gf8",
-    clientName: "Client",
-    title: "Client Testimonial"
+    clientName: "Abdul Qadeer",
+    title: "Body & Mind Transformation Coach"
   }
 ]
 

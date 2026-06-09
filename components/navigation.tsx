@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button"
 
 const navLinks = [
   { label: "Services", href: "#services" },
-  { label: "Work", href: "#work" },
   { label: "About", href: "#about" },
+  { label: "Testimonials", href: "#testimonials" },
   { label: "Contact", href: "#contact" },
 ]
 
@@ -45,7 +45,9 @@ export function Navigation() {
               {link.label}
             </a>
           ))}
-          <Button size="sm">Book a Call</Button>
+          <Button size="sm" asChild>
+            <a href="https://calendly.com/hassanumer83/15min" target="_blank" rel="noopener noreferrer">Book a Call</a>
+          </Button>
         </div>
         
         {/* Mobile Menu Button */}
@@ -76,7 +78,9 @@ export function Navigation() {
                 {link.label}
               </a>
             ))}
-            <Button className="w-full">Book a Call</Button>
+            <Button className="w-full" asChild>
+              <a href="https://calendly.com/hassanumer83/15min" target="_blank" rel="noopener noreferrer">Book a Call</a>
+            </Button>
           </div>
         </div>
       )}
