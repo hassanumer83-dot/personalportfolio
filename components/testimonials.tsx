@@ -1,32 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { Quote, Play, X, ChevronLeft, ChevronRight, Image as ImageIcon } from "lucide-react"
+import { Play, X, ChevronLeft, ChevronRight, Image as ImageIcon } from "lucide-react"
 import { Button } from "@/components/ui/button"
-
-const testimonials = [
-  {
-    type: "quote",
-    quote: "Working with them completely transformed our Meta ads performance. We went from barely breaking even to a 4.5x ROAS within 3 months.",
-    name: "Sarah Chen",
-    title: "Founder, Bloom Beauty Co.",
-    company: "E-Commerce"
-  },
-  {
-    type: "quote",
-    quote: "Our cost per lead dropped by 65% while the quality actually improved. They understood our B2B audience in ways our previous agencies never did.",
-    name: "Michael Rodriguez",
-    title: "VP Marketing, TechFlow Solutions",
-    company: "B2B SaaS"
-  },
-  {
-    type: "quote",
-    quote: "The level of strategic insight and hands-on execution is rare. They don&apos;t just run ads - they truly understand how to build a brand through paid media.",
-    name: "Emma Thompson",
-    title: "CEO, Wellness Direct",
-    company: "Health & Wellness"
-  }
-]
 
 const youtubeTestimonials = [
   {
@@ -118,7 +94,7 @@ export function Testimonials() {
             Real Results, Real Clients
           </h2>
           <p className="text-muted-foreground mt-4 max-w-2xl mx-auto">
-            Video testimonials, dashboard screenshots, and client feedback that speaks for itself.
+            Video testimonials and dashboard screenshots that speak for themselves.
           </p>
         </div>
 
@@ -182,34 +158,6 @@ export function Testimonials() {
                 <div className="p-4 border-t border-border">
                   <p className="font-semibold">{video.clientName}</p>
                   <p className="text-sm text-muted-foreground">{video.title}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-        
-        {/* Written Testimonials */}
-        <div>
-          <div className="flex items-center gap-2 mb-6">
-            <Quote className="w-5 h-5 text-primary" />
-            <h3 className="text-xl font-semibold" style={{ fontFamily: 'var(--font-display)' }}>
-              Client Testimonials
-            </h3>
-          </div>
-          <div className="grid md:grid-cols-3 gap-6">
-            {testimonials.map((testimonial, index) => (
-              <div 
-                key={index} 
-                className="p-6 rounded-xl bg-card border border-border"
-              >
-                <Quote className="w-8 h-8 text-primary/30 mb-4" />
-                <p className="text-foreground mb-6 leading-relaxed text-sm">
-                  {testimonial.quote}
-                </p>
-                <div className="border-t border-border pt-4">
-                  <p className="font-semibold">{testimonial.name}</p>
-                  <p className="text-sm text-muted-foreground">{testimonial.title}</p>
-                  <p className="text-xs text-primary mt-1">{testimonial.company}</p>
                 </div>
               </div>
             ))}

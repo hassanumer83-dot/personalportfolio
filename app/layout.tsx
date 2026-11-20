@@ -14,8 +14,8 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: 'Meta Ads Specialist | Performance Marketing Expert',
-  description: 'Professional Meta advertising specialist delivering exceptional ROAS and scaling profitable ad campaigns for e-commerce and lead generation businesses.',
+  title: 'Meta & Google Ads Specialist | Performance Marketing Expert',
+  description: 'Professional Meta and Google Ads specialist delivering exceptional ROAS and scaling profitable ad campaigns for e-commerce and lead generation businesses.',
   generator: 'v0.app',
   icons: {
     icon: [

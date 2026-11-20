@@ -43,7 +43,7 @@ export function Services() {
             What I Do
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl">
-            End-to-end Meta advertising services designed to drive real business growth.
+            End-to-end Meta and Google Ads services designed to drive real business growth.
           </p>
         </div>
         

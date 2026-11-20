@@ -12,7 +12,7 @@ export function Contact() {
           Ready to Scale Your Ads?
         </h2>
         <p className="text-muted-foreground text-lg mb-12 max-w-2xl mx-auto">
-          Let&apos;s discuss how strategic Meta advertising can drive growth for your business. 
+          Let&apos;s discuss how strategic Meta and Google Ads can drive growth for your business. 
           Book a free strategy call or send me a message.
         </p>
         
